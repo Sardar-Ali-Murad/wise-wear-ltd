@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar width */
+.scrollbar::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 7px;
+  background-color: rgb(248, 172, 172);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+}
+
+.css-108fifd.Mui-selected,
+.css-1bn9xi5-MuiButtonBase-root-MuiTab-root.Mui-selected,
+.css-d3wcwz-MuiTypography-root,
+.css-e784if-MuiTypography-root,
+.css-1bn9xi5-MuiButtonBase-root-MuiTab-root,
+.css-108fifd,
+.css-rkt4di .MuiAutocomplete-root .MuiInputBase-root .MuiInputBase-input,
+.css-wb57ya-MuiFormControl-root-MuiTextField-root,
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+  font-family: "Poppins", sans-serif !important;
+}
